@@ -1,0 +1,246 @@
+<html>
+    <body>
+        
+
+<section id="contact">
+
+    <section class="s1">
+       
+        <!--navbar-->
+       
+            <header>
+                <div class="web-contain" style="position: fixed; ">
+    
+                    <div class="logo">
+                        <h2>Snehal<span></span></h2>
+                    </div>
+    
+                    <nav class="menue" style="padding-right: 90px;">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a  href="about.html">About me</a></li>
+                          <li><a  href="skill.html">Skill</a></li>
+                          <li><a href="projects.html">Project</a></li>
+                          <li><a style="color: pink;"href="contact.html">Contact me</a></li>
+                             <!--<li class="btn"><a href="#"></a></li>-->
+                        </ul>
+                    </nav>
+            </div>
+            </header>
+      </section>
+
+      
+      <div class="col-twelve">
+
+        <h5>Contact</h5>
+        
+    </div> 
+
+    <div class="col-twelve2">
+
+     <!-- form -->
+     <form name="contactForm" id="contactForm" method="post" action="">
+           <fieldset>
+
+           <div class="form-field">
+                     <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+           </div>
+           <div class="form-field">
+                  <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+            </div>
+           <div class="form-field">
+                     <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+            </div>                       
+           <div class="form-field1">
+                  <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+            </div>                      
+          <div class="form-field2">
+              <button class="submitform">Submit</button>
+              
+           </fieldset>
+       </form>    
+</div> <!-- /contact-form -->
+
+
+</div>
+</section> <!-- /contact -->
+
+ </body>
+</html>
+
+
+
+
+    <style>
+
+        body{
+
+            background-color: #000000;
+          }
+      
+          .web-contain
+          {	
+             width: 190px;
+             margin: 0 auto;
+             background-color: rgb(0, 0, 0);
+             padding: 8px 10px;
+             top: 0; 
+             height: 70px;
+             width: 100%;	
+         }
+         
+         a {	
+             display: inline-block;
+             text-decoration: none;
+         }
+         
+         .s1 {
+             position: fixed;
+             padding-bottom: 50px;
+             background: #000000;
+             margin-left:-9px ;
+         }
+         
+         .s1 header {
+             padding: 30px 0 50px 0;
+         }
+         
+         .s1 header .web-contain
+          {
+             display: flex;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: space-between;	
+         }
+         
+         .s1 header .logo h2 {
+             font-family: 'Lato', sans-serif;
+             font-size: 47px;
+             font-weight: 700;
+             letter-spacing: 3px;
+             text-transform: uppercase;
+             color: pink;
+             margin-left: 90px;
+             cursor: pointer;
+             margin-top: 12px;
+         }
+         
+         .s1 header .logo h2 span {
+             display: inline-block;
+             width: 8px;
+             height: 8px;
+             background:pink;
+             border-radius: 15px;
+             margin-left: 5px;
+         }
+         
+         .s1 header nav ul {
+             list-style: none;
+         }
+         
+         .s1 header nav ul li {
+             display: inline-block;
+         }
+         
+         .s1 header nav ul li a {
+             display: inline-block;
+             text-decoration: none;
+             font-size: 25px;
+             font-weight: 600;
+             margin-left: 50px;
+             margin-top: -39px;
+             color: #ffffff;
+             transition-duration: .3s;
+             transition-property: box-shadow, color;
+         }
+         
+         .s1 header nav ul li a:hover {
+             color: rgb(65, 198, 250);
+         }
+         
+         .s1 header nav ul li.btn a {
+             background: yellow;
+             color: #000000;
+             padding: 12px 28px;
+             border-radius: 40px;
+             margin-left: 45px;
+         }
+         
+         .s1 header nav ul li.btn a:hover {
+             box-shadow: 0px 0px 5px #E3FF7C, 0px 0px 15px #7CFFF2;
+         }
+
+        #contact{
+            background-color: black;
+            height: 700px;
+        }
+        .row section-intro{
+            color: white;
+        }
+
+        .col-twelve{
+            color: white;
+            font-size: 60px;
+            margin-left: 680px;
+            margin-top: 80px;
+        }
+        .col-twelve2{
+            background-color: rgb(60, 56, 56);
+            width: 700px;
+            margin-left: 400px;
+            margin-top: -60;
+        }
+
+       
+
+        .form-field{
+            align-self: center;
+        }
+
+        #contactName{
+            height: 50px;
+            font-size: 20px;
+            width: 300px;
+        }
+        #contactEmail{
+            height: 50px;
+            font-size: 20px;
+            width: 300px;
+            
+        }
+
+        #contactSubject{
+
+            height: 50px;
+            font-size: 20px;
+            width: 300px;
+
+        }
+        .form-field{
+            margin-left: 200px;
+            margin-top: 20px;
+           
+        }
+
+        .form-field1{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        .form-field2{
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+
+        #contactMessage{
+            font-size: 20px;
+        }
+
+        .submitform{
+            font-size: 20px;
+
+        }
+
+    </style>
+
+    
